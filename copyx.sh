@@ -1,6 +1,7 @@
 #!/bin/sh
 # SCRIPT:  copyx ver 1.0, 14-9-2011
 # PURPOSE: Copies files and shows the progress of copying.
+# THIS IS FOR COPYING INDIVIDUAL BIG FILES AND NOT DIRECTORIES FULL OF FILES
 # Usage Example: ./copyx my100gbfiles.tar.gz /path/to/destination/my100gbfiles.tar.gz
 copyx()
 {
