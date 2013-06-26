@@ -1,4 +1,6 @@
 #!/bin/bash
+# RUN THIS AS ROOT
+# otherwise the list wont be accurate
 
 # System-wide crontab file and cron job directory. Change these for your system.
 CRONTAB='/etc/crontab'
