@@ -1,0 +1,13 @@
+#!/bin/bash
+# TAR INVOKED SCRIPT
+
+mode="$1"
+prefix="$2"
+n=$(<number)
+
+case $mode in
+  c) mv "$prefix.tar"    "$prefix-$n.tar" ;;
+  x) cp "$prefix-$n.tar" "$prefix.tar"    ;;
+esac
+
+echo $((n+1)) >number

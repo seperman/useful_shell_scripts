@@ -10,4 +10,5 @@ set_bg "{9000, 3000, 1000, 50000}";
 #vagrant ssh;
 ssh $1;
 
+# return the bg color to black after disconnecting from the remote
 set_bg "{0, 0, 0, 50000}";
